@@ -1,0 +1,106 @@
+body{ 
+    margin: 0;   /*grossura da borda, margem */
+    padding-top: 80px; /*espaçamento interno, espaço dentro da pagina e não nas bordas*/
+    text-align: center; /*alinhamento do texto, onde voce quer que o texto esteja*/
+    background: linear-gradient( #1c2858 0%,  #4263f5 100%); /* cor do fundo da página*/
+}
+.profile{
+    border-radius: 3%; /* para decidir a borda, arredondada etc*/
+}
+
+#welcome {
+    position: back;  /*posição do elemento*/
+    display: table;  /*controla o layout, tamanho e interação com outros elementos*/
+     /*table: serve para o elemento se comportar como uma tabela*/
+    width: 100%; /* largura*/
+    height: 100%; /* altura*/
+}
+ h1{
+    font-size:35px; /* tamanho da fonte*/
+    font-family:sans-serif; /* fonte da letra*/
+    font-weight:300; /* grossura da fonte, deixa a fonte "gorda"*/
+
+ }
+
+ #name
+ {
+    font-size: 35px;
+  font-family:sans-serif;
+ }
+
+ #h2
+ {
+    font-size: 25px;
+    font-weight: 300;
+    font-family:monospace;
+ }
+
+#biografia
+{
+    font-family: shape;
+    padding:40px; /* espaçamento entre um elemento e outro*/
+    font-size:20px;
+}
+#GTA_RP
+{
+    font-family: shape;
+    padding: 40px;
+    font-size:20px;
+}
+  
+#line
+{
+    height: 6px;
+    background-color: black; /* cor do fundo de um elemento, como letra, imagem */
+    width: 70px;
+    margin:8px auto;
+}
+#parallax-inner
+{
+     display: table-cell;
+     vertical-align: middle; /* alinhamento na vertical*/
+}
+.menu
+{
+  position: fixed; /* fixa o menu deixando visível o tempo todo*/
+  width:100%; /*se quiser que o menu ocupe 100% da largura da tela*/
+  top: 0px; /* distancia entre um canto de um elemento e outro*/
+  margin-top: 0px; /*define o espaço entre um elemento e o elemento que está acima dele*/
+  z-index: 10; /*permite controlar a profundidade de um elemento em relação à tela*/
+  background-color: rgba(255, 255, 255, 0.6); /* Fundo semitransparente */
+}
+.links {
+    display: inline;/* mantem todos os itens do menu na mesma linha*/
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: Impact;
+    font-size: 20px;
+  }
+  a {
+    color: rgb(78, 101, 165); /* Garantindo que o texto do link seja da cor desejada */
+    text-decoration: none; /* Remove o sublinhado do link que a tag <a> deixa */ /*sem o sublinhado*/ 
+  }
+   
+  .links:hover {
+    color: rgb(18, 14, 20); /* Muda a cor para a desejada ao passar o mouse */
+    text-decoration: underline; /* ecoração de texto*/ /* underline contem uma linha abaixo do texto*/
+  }
+
+  #sobre a{
+    font-size:20px ;
+    color: black;
+  }
+   
+  
+  #CONTATO{
+    background:black;
+  }
+    
+  #CONTATO iframe{
+    width: 100%;
+  }
+
+  .contact_1 h3
+  {
+     display:inline;
+  }
